@@ -31,7 +31,8 @@ The light sockets have power all the time when the key is in run, the low fuel s
 
 ![Temp Gauge](/images/1969%20Camaro%20Temperature%20Gauge%20Running%20Temp.jpg)
 
-- Idiot light sensor goes on at 235 degs.. which is the same temp as the red line on the gauge.
+- Fan Temperature Sensor ON at 195, OFF at 180
+- Original idiot light sensor goes on at 235 degs
 - Gauge normally reads 1 tick above 1/4 scale with the engine operating around 180 degrees, thats just how the originals work.
 
 ### Sender Ohms
