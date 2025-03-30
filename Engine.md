@@ -1,6 +1,32 @@
-# Carberator
+# Engine
 
-## Carb Tuning
+## Information
+
+- VIN Derivitive: 15R407297
+- Suffix Code: T0830CMJ
+    - T: T=Tonowanda, NY (plant)
+    - 0830: August 30th (build date)
+    - CMJ (based on year - unknown)
+        - 74 - 4B,PO,TH - PA
+        - 75 - 2B,Air,TH350 - CH,ME,PA
+        - 76 - 2B,Air,TH350 - CH,ME,PA
+        - 80 - 4B,TH350 - PA
+        - 91 - AT,TBI - CD
+- Small Block 355 (bored .030" over)
+- 882 Heads-smog era 76cc combustion chamber 1.94 Intake Valve 1.5 exhaust
+    - 8.2 compression with dished pistons
+
+### Specs
+
+- Carb Fuel Ports (c to c): 8.25"
+- Spark Plug Gap
+    - Current: .20
+    - When purchased: .50
+- Timing: 32-36 Degrees Advance (Set at 36)
+
+## Carberator
+
+### Carb Tuning
 
 |  | **Original** | **Installed when purchased** | **Edelbrock 1405 - 6-71 Recommended Setup** | **Notes** |
 |---|---|---|---|---|
@@ -14,7 +40,7 @@ Random note, not sure where it came from:
 
 - #1405 600 .100" .095" .070" x .047" orange (5") .0935" 7/16"
 
-## Air-Fuel Ratios
+### Air-Fuel Ratios
 
 Various recommendations
 
@@ -29,3 +55,8 @@ Various recommendations
 | 11.8-12 | Power Mix at 5lbs boost - SC boat |
 | 11.5 | Average WOT 8lb boost |
 
+### Idle Setting
+
+- Original Settings
+    - Front: 2L | 2.25R
+    - Rear: 1.75L | 1.125R
