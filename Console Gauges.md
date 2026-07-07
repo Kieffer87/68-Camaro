@@ -31,28 +31,42 @@ The light sockets have power all the time when the key is in run, the low fuel s
 
 ![Temp Gauge](/images/1969%20Camaro%20Temperature%20Gauge%20Running%20Temp.jpg)
 
+Measured via Decade box:
+
+| Resistance (Ohms) | Gauge Reading |
+|-------------------|---------------|
+| 195 ohms          | Cold peg |
+| 124 ohms          | 1/4 |
+| 107 ohms          | 1/2 |
+| 90 ohms           | 3/4 |
+| 85 ohms           | Hot peg (far right) |
+
 - Fan Temperature Sensor ON at 195, OFF at 180
 - Original idiot light sensor goes on at 235 degs
-- Gauge normally reads 1 tick above 1/4 scale with the engine operating around 180 degrees, thats just how the originals work.
+- Gauge normally reads 1 tick above 1/2 with the engine operating around 180 degrees, thats just how the originals work.
 
 ### Sender Ohms
 
-| Temp (Degrees F) | Wells (TU5) | Lectric Limited (01513321) | GM (1513321) |
-|------------------|-------------|----------------------------|--------------|
-|               80 | 650 ohms    | 573 ohms                   | 549 ohms     |
-|               90 | 526 ohms    | 445 ohms                   | 524 ohms     |
-|              100 | 429 ohms    | 365 ohms                   | 409 ohms     |
-|              110 | 328 ohms    | 266 ohms                   | 365 ohms     |
-|              120 | 283 ohms    | 227 ohms                   | 323 ohms     |
-|              130 | 250 ohms    | 200 ohms                   | 272 ohms     |
-|              140 | 216 ohms    | 170 ohms                   | 227 ohms     |
-|              150 | 198 ohms    | 155 ohms                   | 195 ohms     |
-|              160 | 173 ohms    | 133 ohms                   | 175 ohms     |
-|              170 | 157 ohms    | 119 ohms                   | 157 ohms     |
-|              180 | 135 ohms    | 101 ohms                   | 140 ohms     |
-|              190 | 120 ohms    | 89 ohms                    | 125 ohms     |
-|              200 | 109 ohms    | 79 ohms                    | 109 ohms     |
-|              212 | 104 ohms    | 75 ohms                    | 102 ohms     |
+| Temp (°F) | Wells (TU5) | Lectric Limited (01513321) | GM (1513321) | Typical (Barry K) | Standard Motor Products (TS6) | AC Delco Original | AC Delco New (G1852) | Niehoff |
+|-----------|-------------|----------------------------|--------------|-------------------|-------------------------------|-------------------|----------------------|---------|
+| 70        |             |                            |              |                   | 615 ohms                      | 620 ohms          | 610 ohms             | 660 ohms |
+| 75        |             |                            |              | 569 ohms          |                               |                   |                      |         |
+| 80        | 650 ohms    | 573 ohms                   | 549 ohms     | 539 ohms          | 612 ohms                      | 580 ohms          | 555 ohms             | 600 ohms |
+| 90        | 526 ohms    | 445 ohms                   | 524 ohms     | 477 ohms          | 540 ohms                      | 575 ohms          | 480 ohms             | 530 ohms |
+| 100       | 429 ohms    | 365 ohms                   | 409 ohms     | 410 ohms          | 455 ohms                      | 515 ohms          | 410 ohms             | 465 ohms |
+| 110       | 328 ohms    | 266 ohms                   | 365 ohms     | 355 ohms          | 380 ohms                      | 440 ohms          | 340 ohms             | 410 ohms |
+| 120       | 283 ohms    | 227 ohms                   | 323 ohms     | 300 ohms          | 325 ohms                      | 390 ohms          | 295 ohms             | 330 ohms |
+| 130       | 250 ohms    | 200 ohms                   | 272 ohms     | 240 ohms          | 285 ohms                      | 340 ohms          | 260 ohms             | 280 ohms |
+| 140       | 216 ohms    | 170 ohms                   | 227 ohms     | 187 ohms          | 240 ohms                      | 295 ohms          | 220 ohms             | 250 ohms |
+| 150       | 198 ohms    | 155 ohms                   | 195 ohms     | 171 ohms          | 205 ohms                      | 250 ohms          | 195 ohms             | 215 ohms |
+| 160       | 173 ohms    | 133 ohms                   | 175 ohms     | 150 ohms          | 175 ohms                      | 215 ohms          | 165 ohms             | 185 ohms |
+| 170       | 157 ohms    | 119 ohms                   | 157 ohms     | 134 ohms          | 155 ohms                      | 185 ohms          | 145 ohms             | 160 ohms |
+| 180       | 135 ohms    | 101 ohms                   | 140 ohms     | 123 ohms          | 135 ohms                      | 160 ohms          | 125 ohms             | 140 ohms |
+| 190       | 120 ohms    | 89 ohms                    | 125 ohms     | 112 ohms          | 115 ohms                      | 140 ohms          | 110 ohms             | 120 ohms |
+| 200       | 109 ohms    | 79 ohms                    | 109 ohms     | 94 ohms           | 102 ohms                      | 120 ohms          | 95 ohms              | 105 ohms |
+| 210       |             |                            |              | 83.5 ohms         | 86 ohms                       | 105 ohms          | 84 ohms              | 90 ohms  |
+| 211       |             |                            |              | 83 ohms           |                               |                   |                      |         |
+| 212       | 104 ohms    | 75 ohms                    | 102 ohms     |                   | 83 ohms                       | 96 ohms           | 80 ohms              | 84 ohms  |
 
 - If you have a gauge with an external resistor you can change it from the stock 86 ohm resistor to a 91 ohm resistor and that will move the gauge up to 1 tick below half, at 180 degrees. I've done that, I use a potentiometer with two short leads on it, I adjust it to what i want the gauge to read and then lock it down in a ball of electrical tape so it can't change. If your gauge has the resistor built into it, then you have to live with it reading low, or get a sender that has a lower resistance at each of the temps above.
 
