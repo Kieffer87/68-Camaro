@@ -30,11 +30,11 @@
 
 |  | **Original** | **Installed when purchased** | **Edelbrock 1405 - 6-71 Recommended Setup** | **Notes** |
 |---|---|---|---|---|
-| **Primary Jets** | .098" | ? | .101" (#1429) |  |
-| **Secondary Jets** | .095" | ? | .101" (#1429) |  |
+| **Primary Jets** | .098" | .100 | .101" (#1429) |  |
+| **Secondary Jets** | .095" | .095 | .101" (#1429) |  |
 | **Metering Rods** | .075" x .047" | .071 x .047" (#1453) | .070" x .042" (#1450) | Start here, can change on car easily |
 | **Step-up Piston Springs** | 4" (Yellow) | 5" (Orange) | 5" (orange, stock) |  |
-| **Needle & Seat Assemblies** | .0935" | ? | .110" (#1466) |  |
+| **Needle & Seat Assemblies** | .0935" | .0935 | .110" (#1466) |  |
 
 Random note, not sure where it came from:
 
